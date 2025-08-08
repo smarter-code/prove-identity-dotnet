@@ -28,7 +28,7 @@ class ApiService {
         }
     }
 
-    async initiateVerification(phoneNumber, lastFourSSN, flowType) {
+    async startVerification(phoneNumber, lastFourSSN, flowType) {
         return this.makeRequest('/start', {
             method: 'POST',
             body: JSON.stringify({

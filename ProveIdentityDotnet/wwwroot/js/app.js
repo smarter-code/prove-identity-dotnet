@@ -88,7 +88,7 @@ class ProveIdentityApp {
                 this.uiManager.showLoading(false);
                 // Move to authentication step
                 this.uiManager.showStep(2);
-                this.uiManager.showNotification('Verification initiated successfully', 'success');
+                this.uiManager.showNotification('Verification started successfully', 'success');
                 setTimeout(() => {
                     console.log("Simulate user clicking on the link in the mobile");
                 }, 5000);
